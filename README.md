@@ -1,23 +1,26 @@
 ## config-lite
 
-A super simple & flexible & intuitive config module, support `yaml` & `toml`.
-
+A super simple & flexible & intuitive config module, support `yaml` & `toml`. Use by import.
+another version for config-lite.
 ### Install
 
 ```bash
-$ npm i config-lite --save
+$ npm i import-config-lite --save
 ```
 
 ### Usage
 
 ```js
-const config = require('config-lite')(__dirname);
+import iConfigLite from ('import-config-lite');
+const config = iConfigLite(__dirname);
 ```
 
 or:
 
 ```js
-const config = require('config-lite')({
+
+import iConfigLite from ('import-config-lite');
+const config = iConfigLite({
   filename: 'test',
   config_basedir: __dirname,
   config_dir: 'config'

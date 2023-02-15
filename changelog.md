@@ -1,9 +1,4 @@
-### 3.0.0/2020-04-17
+### 1.0.0/2022-02-15
 
-- use `_.defaultsDeep`
-- update deps
+- use by import
 
-### 2.1.0/2017-08-25
-
-- add toml support
-- update README

@@ -1,8 +1,9 @@
 {
   "name": "config-lite",
-  "description": "A super simple & flexible & intuitive config module.",
-  "version": "3.0.0",
+  "description": "A super simple & flexible & intuitive config module. Use by import.",
+  "version": "1.0.0",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "test": "NODE_ENV=production node ./test/test --age=100"
   },
@@ -17,11 +18,11 @@
     "toml"
   ],
   "dependencies": {
-    "chalk": "4.0.0",
-    "js-yaml": "3.13.1",
-    "lodash": "4.17.15",
+    "chalk": "5.2.0",
+    "js-yaml": "4.1.0",
+    "lodash": "4.17.21",
     "optimist": "0.6.1",
-    "resolve": "1.15.1",
+    "resolve": "1.22.1",
     "toml": "3.0.0"
   },
   "license": "MIT",
